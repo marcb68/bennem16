@@ -1,5 +1,11 @@
 <?php
-
+//start a session
+@session_start();
+//set values to session variables
+$_SESSION["username"] = "marc  ";
+$_SESSION["passwrod"] = "cat";
+$_SESSION["color"] = "red";
+$_SESSION["Address"] = "139 carrington rd";
 ?>
 <html>
 <head>
